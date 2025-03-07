@@ -1,6 +1,5 @@
 /* cuerpo*/
 body{
-height: 100vh;
 background-color:gainsboro;
 }
 
@@ -8,7 +7,7 @@ background-color:gainsboro;
 /* comienza la lista de tareas */
 #task-list {
   overflow: auto;
-  height: 40rem;
+  height: 25rem;
   padding-top: 5rem;
 }
 /* titulo */
@@ -33,6 +32,7 @@ background-color:gainsboro;
   flex-direction: column;
   text-align: center;
   color: var(--primary-active-color);
+
 }
 
 #task-list{
@@ -58,7 +58,8 @@ background-color:gainsboro;
   background-color: white;
   box-shadow: 0 0 10px var(--primary-color);
   width: 350px;
-  height: 40px;
+  max-width: 8rem;
+  justify-content: center;
 }
 
 #task-container{
@@ -80,12 +81,6 @@ background-color:gainsboro;
   color: var(--btn-text-color);
   background-color: var(--primary-color);
   justify-content: center;
-  }
-
-#task-counter {
-  width: 20px;
-  height: 20px;
-  font-size: 5rem;
 }
 
 #text-button{
