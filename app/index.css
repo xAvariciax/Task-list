@@ -56,6 +56,11 @@ body{
     width: 15rem;
     justify-content: center;
     text-align: center;
+    font-size: 2rem;
+    border: 3px solid;
+    border-color: var(--primary-active-color);
+    border-radius: 10px;
+    outline: none;
   }
   
   #task-container{
@@ -69,6 +74,9 @@ body{
       flex-direction: row;
       display: flex;
       flex-wrap: wrap;
+      border: 3px solid;
+      border-color: var(--primary-active-color);
+      border-radius: 10px;
   }
   
   #main-form-button{
@@ -95,7 +103,24 @@ body{
     text-align: center;
     flex-direction: column;
     display:flex;
-  
+  }
+  #task-list-counter{
+    font-size: 2rem;
+    color: var(--primary-active-color);
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid;
+    border-color: var(--primary-color);
+    border-radius: 10px;
+    color: black;
+    margin: 10px;
+    position:absolute var(--width-page)
+  }
+  .task-list-counter-position{
+    position: absolute;
+    z-index: 1;
   }
   #main-form-button:hover{
   background-color:blue
@@ -132,6 +157,28 @@ body{
     box-shadow: 2px;
     background-color: rgb(138, 140, 247);
     margin: 3px;
+  }
+  .task-item-completed{
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    padding: 1rem;
+    box-shadow: 2px;
+    background-color: rgb(138, 140, 247);
+    margin: 3px;
+  }
+  .task-item-text-completed{
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    background-color: white;
+    border-radius: 10px;
+    background-color: rgb(178, 255, 178);
   }
   
   .task-item-text{
