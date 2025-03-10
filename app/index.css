@@ -1,6 +1,6 @@
 /* cuerpo*/
 body{
-background-color:gainsboro;
+background-color:white;
 overflow: hidden;
 }
 
@@ -13,7 +13,7 @@ overflow: hidden;
 }
 /* titulo */
 #main{
-  background-color:gainsboro;
+  background-color:white;
   font-size: 50rem;
   font-weight: 700;
   justify-content: center;
@@ -40,7 +40,7 @@ overflow: hidden;
 #task-list{
   justify-content: center;
   padding: 5vh;
-  background-color:gainsboro;
+  background-color:white;
   box-sizing: border-box;
   border-width: 10px;
   border-color: var(--primary-color);
@@ -97,7 +97,7 @@ overflow: hidden;
 
 }
 #main-form-button:hover{
-background-color: green;
+background-color: var(--primary-color)
 }
 .task-item-check-button:hover{
 background-color: green;
@@ -135,7 +135,7 @@ transition: all 0.30s ease-in-out;
   justify-content: center;
   text-align: center;
   display: grid;
-  background-color: gainsboro;
+  background-color: white;
   border-radius: 10px;
 }
 .task-item-delete-button{
@@ -145,7 +145,7 @@ transition: all 0.30s ease-in-out;
     border-radius: 1rem;
     border-color: black;
     border:2px solid;
-    background-color: gainsboro;
+    background-color: white;
 }
 .task-item-check-button{
   background-color: var(--primary-active-color);
@@ -154,7 +154,7 @@ transition: all 0.30s ease-in-out;
   border-radius: 1rem;
   border-color: black;
   border: 2px solid;
-  background-color: gainsboro;
+  background-color: white;
 }
 
 /* tengo mucho codigo por limpiar y verificar que sirve y que no sirve pero hasta ahroa funciona perfecto */
