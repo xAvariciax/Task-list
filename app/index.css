@@ -113,7 +113,7 @@ body{
     justify-content: space-evenly;
     display: flex;
     flex-direction: row;
-    border: 3px solid;
+    border: 5px solid;
     border-color: var(--primary-color);
     border-radius: 10px;
     color: black;
