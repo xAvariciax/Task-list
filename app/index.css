@@ -145,14 +145,6 @@ body{
     border-color: black;
     border: 1px solid;
   }
-
-  .task-list-counter-position{
-    position: absolute;
-    display:flex ;
-    z-index: 1;
-    width: 100%;
-    flex-wrap: nowrap;
-  }
   #main-form-button:hover{
   background-color:blue
   }
