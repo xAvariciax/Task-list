@@ -122,8 +122,6 @@ body{
     padding: 5px;  
   }
   #task-list-counter-num{
-    border: 3px solid;
-    border-color: var(--primary-color);
     border-radius: 10px;
     background-color: white;
     padding: 5px;
